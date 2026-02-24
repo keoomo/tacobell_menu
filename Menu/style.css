@@ -1,0 +1,232 @@
+body, html {
+	font-family: "Roboto Condensed";
+	margin: 0;
+	height: 100%;
+	background: black;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#menuTitle {
+	color: white;
+	text-shadow: -3px 3px #5D2E74;
+	top: 150px;
+	left: 20px
+	right: 100px;
+	width: 300px;
+	text-align: center;
+	font-size: 35px;
+}
+
+#menuContainer {
+	width: 650px;
+	background: #8A6A9C;
+	min-height: 100vh;
+	position: relative;
+}
+
+#logo {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+#tacoText {
+	top: 150px;
+	left: 20px;
+	width: 280px;
+	height: 33px;
+	border-radius: 10px;
+	background-color: #5D2E74;
+	z-index: 10;
+	position: absolute;
+
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	letter-spacing: 1px;
+	word-spacing: 8px;
+}
+
+#tacoImage {
+	width: 270px;
+	height: auto;
+	position: absolute;
+	top: 110px;
+	left: 30px;
+}
+
+#chipsNacho {
+	top: 250px;
+	right: 20px;
+	width: 280px;
+	height: 50px; 
+	border-radius: 10px;
+	background-color: #992607;
+	z-index: 10;
+	position: absolute;
+
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	letter-spacing: 1px;
+	word-spacing: 8px;
+}
+
+#nachoImage {
+	width: 370px;
+	height: auto;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+#chipotleRanch {
+	top: 500px;
+	left: 20px;
+	width: 280px;
+	height: 50px; 
+	border-radius: 10px;
+	background-color: #035807;
+	z-index: 10;
+	position: absolute;
+
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	letter-spacing: 1px;
+	word-spacing: 8px;
+}
+
+#chickenImage {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 270px;
+	left: 0px;
+	z-index: 0;
+}
+
+#beefyGriller {
+	top: 500px;
+	right: 20px;
+	width: 250px;
+	height: 50px; 
+	border-radius: 10px;
+	background-color: #5D2E74;
+	z-index: 10;
+	position: absolute;
+
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	letter-spacing: 1px;
+	word-spacing: 8px;
+}
+
+#beefImage {
+	width: 320px;
+	height: auto;
+	position: absolute;
+	top: 240px;
+	right: 0px;
+}
+
+#saltedChurros {
+	bottom: 20px;
+	left: 20px;
+	width: 380px;
+	height: 35px; 
+	border-radius: 10px;
+	background-color: #2E149B;
+	z-index: 10;
+	position: absolute;
+
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	letter-spacing: 1px;
+	word-spacing: 8px;
+}
+
+#churroImage {
+	width: 320px;
+	height: auto;
+	position: absolute;
+	bottom: -10px;
+	left: 20px;
+}
+
+#availability {
+	position: absolute;
+	color: white;
+	text-shadow: -3px 3px #5D2E74;
+	bottom: 150px;
+	right: -5px;
+	width: 300px;
+	text-align: center;
+	font-size: 35px;
+}
+
+#testingSite {
+	position: absolute;
+	color: white;
+	text-shadow: -3px 3px #5D2E74;
+	bottom: 50px;
+	right: -5px;
+	width: 300px;
+	text-align: center;
+	font-size: 28px;
+}
+
+#reference {
+	width: 300px;
+	height: auto;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	z-index: 20;
+}
+
+#refer {
+	color: white;
+	bottom: 380px;
+	left: 20px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	z-index: 20;
+}
